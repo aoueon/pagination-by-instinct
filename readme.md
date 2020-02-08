@@ -1,11 +1,9 @@
 # Pagination by Instinct
 
-
 ### Functions
 
 * `get_aniomalia_pagination()` - outputs array
 * `aniomalia_pagination()` - outputs HTML
-
 
 ### get_aniomalia_pagination() array output
 
