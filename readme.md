@@ -1,4 +1,4 @@
-# Pagination by Instinct
+# Pagination by instinct
 
 ### Functions
 

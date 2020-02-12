@@ -68,7 +68,7 @@ function aniomalia_pagination($show_pages = 5, $show_adjacent = true, $show_ends
 
     <div class="aniomalia-pagination">
 
-        <?php if ( ! $show_all_pages && $pages['total'] !== $max ) : ?>
+        <?php if ( ! $show_all_pages && $pages['total'] > $max ) : ?>
 
             <?php if ( $show_ends && $pages['current'] !== 1 ) : ?>
             <span class="aniomalia-pagination-item aniomalia-pagination-item-non-page aniomalia-pagination-item-first">
@@ -128,7 +128,7 @@ function aniomalia_pagination($show_pages = 5, $show_adjacent = true, $show_ends
 
         <?php endforeach; endif; ?>
 
-        <?php if ( ! $show_all_pages && $pages['total'] !== $max ) : ?>
+        <?php if ( ! $show_all_pages && $pages['total'] > $max ) : ?>
 
             <?php if ( $show_adjacent && $pages['next'] && $pages['next'] !== $pages['last'] ) : ?>
             <span class="aniomalia-pagination-separator"></span>
